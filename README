@@ -1,1 +1,11 @@
-Test
+	git命令
+git init
+git clone https://github.com/peng-man/hello-world.git /home/peng/git_file
+git add 文件名
+git rm --cached 文件名
+git commit -m "评论"
+git remote add origin https://github.com/peng-man/hello-world.git
+git push -u origin main
+git status
+git remote rm origin
+
